@@ -1,0 +1,131 @@
+*{
+    font-family: sans-serif;
+    color: #7e7c7c;
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    display: flex;
+}
+.sideBar{
+    background-color: rgb(22, 21, 21);
+    width: 250px;
+    padding: 8px;
+    max-height: 100vh;
+    position: relative;
+    padding-top: 60px;
+    display: none;
+    
+    
+}
+.title{
+    
+    
+    display: block;
+    font-weight: bold;
+    background-image: url(https://wallpapers.com/images/featured/snow-mountain-ydg6x966wun8nkjs.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: italic;
+    padding: 22.5px;
+    color: white;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #000000;
+}
+.title img{
+    
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 34px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    
+
+}
+.links{
+    margin: 90px auto;
+    
+}
+.links .link{
+    
+    display: block;
+    border-top: 2px  solid  #7e7c7c;
+
+    margin-top: 35px;
+    margin-bottom: 10px;
+    background-color: none;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    margin:9px 0;
+    transition: all 2s;
+    
+}
+.links .link:hover{
+    color: white;
+    
+    
+} 
+.links .link:hover i{
+    color: white;
+    
+}
+.links .link.active {
+    background-color: #fd7979;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+}
+.links .link.active .fa{
+    color: white;
+
+    
+}
+.main{
+    width: 100%;
+}
+.main h3{
+    background-color: white;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.905);
+    
+}
+.icon{
+    padding: 12px;
+
+}
+i.fa-angle-right{
+    padding: 3px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #2fa8ee;
+    border-radius: 8%;
+    margin: 3px;
+    transition: all 0.5s ease-in-out;
+}
+i.fa-angle-right:hover{
+    background-color: #216097;
+    transition: all 0.5s ease-in-out;
+    
+}
+.titles{
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+    font-weight: sans-serif;
+    font-size: 13px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: none;
+    
+}
