@@ -1,4 +1,4 @@
-8*{
+*{
     font-family: sans-serif;
     color: #7e7c7c;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ body{
     background-color: rgb(22, 21, 21);
     width: 250px;
     padding: 8px;
-    height: 100vh;
+    height: 130vh;
     position: relative;
     padding-top: 60px;
     display: none;
